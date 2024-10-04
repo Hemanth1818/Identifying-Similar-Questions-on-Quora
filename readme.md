@@ -1,4 +1,13 @@
-# Identifying-Similar-Questions-on-Quora
+# Quora Duplicate Question Detection
+
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24%2B-orange?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-1.4%2B-red?style=for-the-badge&logo=xgboost)](https://xgboost.readthedocs.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-0.80%2B-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
+
+<div align="center">
+  <img src="https://images.squarespace-cdn.com/content/v1/639b5b5db16dac1afbf2ca5c/627bdaaf-d0c6-4718-9b34-f0db82c1939b/Logo_Screen_Red_RGB_1024.png" width="200"/>
+</div>
 
 This project implements an **NLP-based solution** to detect duplicate questions on Quora, a key issue that reduces platform efficiency and user satisfaction. By identifying duplicate questions, we can prevent redundant answers and enhance the user experience.
 
@@ -26,8 +35,8 @@ Duplicate questions cause inefficiencies in platforms like Quora, where many sim
 2. Guiding users to existing responses that satisfy their query.
 
 For example:
-- **Q1:** “What is the capital of France?”
-- **Q2:** “Which city is the capital of France?”
+- **Q1:** "What is the capital of France?"
+- **Q2:** "Which city is the capital of France?"
 
 Though phrased differently, these questions ask the same thing and should be treated as duplicates.
 
@@ -111,7 +120,7 @@ The web app also provides a detailed explanation of the features used in the pre
 
 ## Results
 
-The models performed well on a dataset of 30,000 Quora question pairs. Here’s a summary of the performance:
+The models performed well on a dataset of 30,000 Quora question pairs. Here's a summary of the performance:
 
 - **Random Forest**: 79.05% accuracy
 - **XGBoost**: 79.46% accuracy
@@ -137,7 +146,3 @@ Special thanks to our course **AI 3106: Foundations of NLP** for providing the f
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-This version of the README highlights the key technical aspects of the project while maintaining a professional and concise tone. It is structured for clarity, allowing users to easily understand the project’s goals, methodology, and usage.
