@@ -1,0 +1,2 @@
+Streamlit run process:
+streamlit run app.py
